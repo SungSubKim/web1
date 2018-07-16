@@ -1,38 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title> WEB - CSS</title>
-    <meta charset = "utf-8">
-    <link rel = "stylesheet" href = "style.css">
-    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src = "color.js"></script>
+    <title>Page Title</title>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "style2.css">
   </head>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <div id = "grid">
+    <h1><a href ="index.html">Bank</a></h1>
+    <div id ="grid">
       <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
+          <li><a href ="1.html">페이</a></li>
+          <li><a href ="2.html">이체</a></li>
+          <li><a href ="3.html">보험</a></li>
+          <li><a href ="4.html">대출</a></li>
       </ol>
-      <div id = "article">
-        <h2>CSS</h2>
-        <p>
-        CSS는 이러이러한style이다.큰따옴표는 html
-        .saw : 모든클래스의값이 saw인 태그를 가리키게 된다.
-        class 그룹핑하다 묶는다
-        class라는 속성의 값은 여러개가 들어올 수 있고
-        여러개의 선택자로 태그를 제어할수있다.
-        id선택자  > class선택자 > a태그선택자
-        보다 가까이 있는 명령이 더욱더 영향력이 강하다.(더 아래쪽)
-        id의 값은 단 한번 등장하여야 한다.
-        태그 선택자가 id선택자보다 포괄적이잖아?
-        그리고 덜 포괄적인, 자세한 엄대에 우선순위를 준다.
-        </p>
-      </div>
+      <span id = "task">
+        <h2>이체</h2>
+        <h4>출금 계좌 정보</h4>
+        <p>출금 계좌 번호<br>
+        <select name="withdraw" size="1" >
+        <option selected> 447-052754-01-012 ibk기업
+        <option >1234-5678 우리
+        </select>
+        <br>
+        계좌 비밀번호<br>
+        <input type = "password" size = "15"><br>
+        이체 금액       <br><input type = "text" size = "15">원</p>
+        <h4>입금 계좌 정보</h4>
+        <p>입금 계좌 번호  <br><input type = "text" size = "15"><br>
+        예금주          <br><input type = "text" size = "15"><br>
+        받는 분 표시내용<br><input type = "text" size= "15"></p>
+        <input type="submit" value="인증받기">
+      </span>
     </div>
-    <input id = "night_day" type = "button" value = "night" onclick = "
-      nightDayHandler(this);
-    ">
   </body>
 </html>
