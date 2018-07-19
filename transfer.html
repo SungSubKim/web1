@@ -4,6 +4,7 @@
     <title>Transfer</title>
     <meta charset="utf-8">
     <link rel = "stylesheet" href = "style2.css">
+    <script src = "script.js"></script>
   </head>
   <body>
     <h1><a href ="index.html">SSenStone Bank</a></h1>
@@ -30,7 +31,9 @@
         <p>입금 계좌 번호  <br><input type = "text" size = "15"><br>
         예금주          <br><input type = "text" size = "15"><br>
         받는 분 표시내용<br><input type = "text" size= "15"></p>
-        <input type="submit" value="이체하기">
+        <input type="submit" value="이체하기" onclick = "
+        goToLoading(2);
+        ">
       </span>
     </div>
   </body>

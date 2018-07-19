@@ -4,6 +4,7 @@
     <title>Payment</title>
     <meta charset="utf-8">
     <link rel = "stylesheet" href = "style2.css">
+    <script src = "script.js"></script>
   </head>
   <body>
     <h1><a href ="index.html" id = "title"> SSenStone Bank </a></h1>
@@ -27,7 +28,9 @@
         생년월일 6자리를 입력하여 주십시오.<br>
         <p><span>휴대폰 번호 </span><input type = "text" size  = "15"><br>
         생년월일 <input type = "text" size = "15" > </p>
-        <input type = "submit" value = "결제하기">
+        <input type = "submit" value = "결제하기" onclick = "
+        goToLoading(1);
+        ">
         </span>
     </div>
   </body>
