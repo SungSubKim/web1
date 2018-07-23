@@ -15,7 +15,10 @@
        })
       }) 
       */
-      fetch('CSS.txt');                                   
+      function callbackme() {
+        console.log('respond end');
+      }
+      fetch('CSS.txt').then(callbackme);                                   
     ">
   </body>
 </html>
