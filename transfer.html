@@ -16,21 +16,10 @@
         <a href ="loan.html"><br>대출</a>
       </ol>
       <span id = "task">
-        <h2>이체</h2>
-        <h4>출금 계좌 정보</h4>
-        <p>출금 계좌 번호<br>
-        <select name="withdraw" size="1" >
-        <option selected> 447-052754-01-012 ibk기업
-        <option >1234-5678 우리
-        </select>
-        <br>
-        계좌 비밀번호<br>
-        <input type = "password" size = "15"><br>
-        이체 금액       <br><input type = "text" size = "15">원</p>
-        <h4>입금 계좌 정보</h4>
-        <p>입금 계좌 번호  <br><input type = "text" size = "15"><br>
-        예금주          <br><input type = "text" size = "15"><br>
-        받는 분 표시내용<br><input type = "text" size= "15"></p>
+        <h2>사용자 ID</h2>
+        <input type = "text" id = "USERID" width = 15><br>
+        <h2>COTP</h2>
+        <input type = "text" id = "COTP" width = 15><br>
         <input type="submit" value="이체하기" onclick = "
         goToLoading(2);
         ">
